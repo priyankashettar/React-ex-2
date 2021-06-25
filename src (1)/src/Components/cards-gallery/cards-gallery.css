@@ -1,0 +1,145 @@
+.Cardsgallery {
+    border: 1px solid #ddd;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-top: 24px;
+    padding: 32px 4px 4px 4px;
+    margin-bottom: 24px;
+}
+
+.Cardsgallery .row {
+    width: 100%;
+    
+}
+
+.Cardsgallery .sim-bg,
+.Cardsgallery .data-speed {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Cardsgallery .sim-bg {
+    width: 50px;
+    background-color: blue;
+    padding: 4px;
+    background: url('../../assets/icon-sim-purple.svg');
+}
+
+.Cardsgallery .sim-bg span,
+.Cardsgallery .data-speed span {
+    display: inline-block;
+    width: 100%;
+}
+
+.Cardsgallery .sim-bg span:first-child {
+    font-size: 32px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.Cardsgallery .sim-bg span:nth-child(2) {
+    font-size: 12px;
+    color: #fff;
+}
+
+.Cardsgallery .data-speed span:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+.Cardsgallery .data-speed span:nth-child(2) {
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.Cardsgallery .plan-benefits {
+    margin-top: 20px;
+}
+
+.Cardsgallery .plan-benefits li {
+    list-style: none;
+}
+
+.Cardsgallery .plan-benefits li::before {
+    content: "\2713";
+    color: #178804;
+    padding-right: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Cardsgallery .plan-details {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    margin-top: 24px;
+    padding: 16px;
+}
+
+.Cardsgallery .plan-details .price-txt {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.Cardsgallery .plan-details .price-txt span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.Cardsgallery .plan-details .price-desc {
+    color: #178804;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 2;
+}
+
+.Cardsgallery .plan-details button {
+    padding: 8px 16px;
+    margin-top: 16px;
+    border-radius: 4px;
+    background-color: #e60050;
+    color: #fff;
+    border-color: #e60050;
+    cursor: pointer;
+}
+
+.Cardsgallery .price-6gb {
+    background-color: #ffe600;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 24px;
+    line-height: 2;
+    display: none;
+}
+
+.Cardsgallery.Cardsgallery-extra-plus {
+    padding-top: 0;
+    background-color: #ffe600;
+}
+
+.Cardsgallery .Cardsgallery-40gb-details {
+    display: none;
+}
+
+.Cardsgallery.Cardsgallery-extra .price-6gb {
+    display: block;
+}
+
+.Cardsgallery.Cardsgallery-extra .plan-details {
+    margin-top: 0;
+}
+ 
+.Cardsgallery.Cardsgallery-extra-plus .Cardsgallery-40gb-details {
+    display: block;
+    border-radius: 4px;
+    padding: 8px 0;
+}
+
+.Cardsgallery.Cardsgallery-extra-plus .Cardsgallery-40gb {
+    background-color: #fff;
+    padding-top: 8px;
+}
+
+.Cardsgallery .line-through {
+    text-decoration: line-through;
+}
