@@ -1,1 +1,1 @@
-# React-ex-2
+# This file contains complete exercise
